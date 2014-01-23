@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/counttext_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/count_num" 
+        android:textSize="100sp"/>
+
+    <Button
+        android:id="@+id/decButton_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/resetButton_id"
+        android:layout_alignBottom="@+id/resetButton_id"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:text="@string/dec_str" />
+
+    <Button
+        android:id="@+id/resetButton_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="65dp"
+        android:layout_marginTop="74dp"
+        android:text="@string/reset_str" />
+
+</RelativeLayout>

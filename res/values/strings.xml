@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">かうんたー</string>
+    <string name="count_num">0</string>
+    <string name="menu_settings">Settings</string>
+    <string name="dec_str">-1</string>
+    <string name="reset_str">reset</string>
+
+</resources>
